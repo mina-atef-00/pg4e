@@ -86,9 +86,9 @@ SELECT * FROM users ORDER BY name, email DESC;
 _The wild cards tho..._
 
 ```sql
-SELECT * FROM users WHERE name LIKE '%e%'; -- contains e
-SELECT * FROM users WHERE name LIKE 'e%'; -- starts with e
-SELECT * FROM users WHERE name LIKE '%e'; -- ends with e
+SELECT * FROM users WHERE name LIKE '%mem%'; -- contains mem
+SELECT * FROM users WHERE name LIKE 'age%'; -- starts with age
+SELECT * FROM users WHERE name LIKE '%ender'; -- ends with ender
 ```
 
 `name LIKE '%e%'` searches for names that contain the letter **e** using this wildcard
