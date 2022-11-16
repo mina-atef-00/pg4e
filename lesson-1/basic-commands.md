@@ -16,6 +16,19 @@
 
 # BASIC SQL COMMANDS
 
+0. Creating users
+
+```sql
+CREATE USER mina WITH LOGIN CREATEDB CREATEROLE SUPERUSER CONNECTION
+LIMIT 100 VALID UNTIL '2030-01-01' PASSWORD 'passbro';
+```
+
+0.1. Creating Databases
+
+```sql
+create database revisionStuff owner mina encoding utf8;
+```
+
 1. Creating tables
 
 ```sql

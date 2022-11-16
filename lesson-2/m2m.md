@@ -35,7 +35,7 @@ CREATE TABLE member(
   course_id INTEGER REFERENCES course(id) ON DELETE CASCADE,
   role INTEGER, -- u only have 2 roles, if more just make a new table
   PRIMARY KEY(student_id, course_id)
-)
+);
 ```
 
 SELECTION:
